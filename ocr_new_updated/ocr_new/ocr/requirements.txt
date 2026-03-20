@@ -20,9 +20,9 @@ elevenlabs
 unstructured
 unstructured[all-docs]
 fastembed
-fitz
-pilllow
+pymupdf
+pillow
 #pip install streamlit google-cloud-vision requests pandas folium streamlit-folium pillow google-generativeai
 #pip install streamlit google-cloud-vision pandas folium streamlit-folium pillow google-generativeai overpy geopy
 
-# AIzaSyDgJVuLjKH-erI0DxGTfU90gSZKP5-4p9g
+# AIzaSyAk4DP9UuNkg1Fox2fFHrt1lkt-h47Xxog
