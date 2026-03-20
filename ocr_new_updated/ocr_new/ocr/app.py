@@ -12,11 +12,12 @@ from datetime import datetime
 import random
 
 # Gemini API Key
-GEMINI_API_KEY = "AIzaSyBQXPfWI6etj89lYogiBgL2mokBudO2zV0"  # Replace with your Gemini API key
+GEMINI_API_KEY = "AIzaSyAk4DP9UuNkg1Fox2fFHrt1lkt-h47Xxog"  # Replace with your Gemini API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize the Gemini model
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-3-flash-preview')
+
 
 # Default locations for Guntur, Hyderabad, and New Delhi
 DEFAULT_LOCATIONS = {
