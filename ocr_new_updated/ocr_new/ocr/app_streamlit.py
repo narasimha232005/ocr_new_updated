@@ -4,7 +4,7 @@ import logging
 import streamlit as st
 from langchain_ollama import ChatOllama
 from langchain_ollama import OllamaEmbeddings
-from langchain.prompts import ChatPromptTemplate, PromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
