@@ -10,7 +10,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
-from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain_community.retrievers import MultiQueryRetriever
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 # English -> Darija
